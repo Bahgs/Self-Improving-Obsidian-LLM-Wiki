@@ -1,6 +1,8 @@
-# LLM Wiki OS
+# Self-Improving Obsidian LLM Wiki
 
 An Obsidian-first, agent-maintained LLM Wiki framework that turns raw source material into linked notes, concepts, summaries, analysis, and evolving schema rules.
+
+Repository: [Bahgs/Self-Improving-Obsidian-LLM-Wiki](https://github.com/Bahgs/Self-Improving-Obsidian-LLM-Wiki)
 
 This repo is a sanitized public template. It contains the framework, folder structure, agent instructions, schema, rubrics, and example skill docs. It intentionally contains no private raw files, generated personal notes, credentials, medical records, financial records, chat exports, or personal memory data.
 
@@ -17,8 +19,8 @@ Most AI note systems get bigger. This one is designed to get more operationally 
 ## Quick Start
 
 ```bash
-git clone <your-repo-url> llm-wiki-os
-cd llm-wiki-os
+git clone https://github.com/Bahgs/Self-Improving-Obsidian-LLM-Wiki.git
+cd Self-Improving-Obsidian-LLM-Wiki
 ```
 
 Then:
@@ -43,27 +45,29 @@ After the ingest, review:
 
 ## Installation
 
-### 1. Use This Template
+### 1. Clone This Repo
 
 On GitHub, you can either:
 
+- clone this repo directly
 - click **Use this template**, then clone your new repo
 - fork it
-- clone it directly and rename the remote later
 
 Local setup:
 
 ```bash
-git clone <repo-url> llm-wiki-os
-cd llm-wiki-os
+git clone https://github.com/Bahgs/Self-Improving-Obsidian-LLM-Wiki.git
+cd Self-Improving-Obsidian-LLM-Wiki
 ```
+
+If you use this as a template for your own vault, replace the repository URL and folder name with your own.
 
 ### 2. Open in Obsidian
 
 In Obsidian:
 
 1. Choose **Open folder as vault**.
-2. Select the `llm-wiki-os` folder.
+2. Select the `Self-Improving-Obsidian-LLM-Wiki` folder.
 3. Confirm that these folders are visible:
    - `raw/`
    - `wiki/`
@@ -81,7 +85,7 @@ Included compatibility files:
 - `AGENTS.md` for general agent instructions
 - `CLAUDE.md` for Claude-style workflows
 - `GEMINI.md` for Gemini-style workflows
-- `.cursor/rules/llm-wiki-os.mdc` for Cursor-style project rules
+- `.cursor/rules/self-improving-obsidian-llm-wiki.mdc` for Cursor-style project rules
 - `CLI-BOOTSTRAP.md` for any tool that does not auto-read project instruction files
 
 The canonical operating contract is:
@@ -97,7 +101,7 @@ All CLI-specific files point back to that schema. The framework is intentionally
 Use whichever CLI you prefer, but start it from the repository root:
 
 ```bash
-cd path/to/llm-wiki-os
+cd path/to/Self-Improving-Obsidian-LLM-Wiki
 ```
 
 Then use this bootstrap prompt if your tool does not automatically load project instructions:
@@ -184,10 +188,16 @@ Read GEMINI.md and schema/AGENT.md. Confirm the ingest workflow.
 This repo includes:
 
 ```text
-.cursor/rules/llm-wiki-os.mdc
+.cursor/rules/self-improving-obsidian-llm-wiki.mdc
 ```
 
 If your editor does not load the rule automatically, paste the prompt from `CLI-BOOTSTRAP.md` into your chat.
+
+## About the README Files
+
+GitHub uses the root `README.md` as the main repository homepage.
+
+This repo also has folder-level README files, such as `raw/README.md`, `wiki/README.md`, and `Skills/README.md`. GitHub only shows those when someone browses into that specific folder. They are local guides for that part of the vault, not competing homepage files.
 
 ## Core Philosophy
 
