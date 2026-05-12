@@ -16,6 +16,28 @@ This framework keeps that foundation but adds a second idea:
 
 Most AI note systems get bigger. This one is designed to get more operationally intelligent. New sources can create new wiki pages, but they can also create schema proposals, output-quality lessons, extraction patterns, and future-agent prompts.
 
+## What a Completed Vault Looks Like
+
+These sanitized example views are based on a working Brain vault using this framework. They show the end state this template is aiming for: source material becomes concept notes, linked graph structure, reviewable Bases, and schema-learning surfaces.
+
+### Concept Note
+
+Generated concept notes preserve source evidence, summarize the reusable idea, and expose related pages and backlinks.
+
+![Sanitized completed vault concept note](docs/screenshots/completed-vault-concept.svg)
+
+### Graph Connections
+
+The value of the vault compounds as source notes, concepts, entities, summaries, and schema proposals start linking into a useful knowledge graph.
+
+![Sanitized completed vault graph view](docs/screenshots/completed-vault-graph.svg)
+
+### Bases as Review Surfaces
+
+Obsidian Bases make the generated wiki easier to inspect. You can review concepts, entities, source records, analysis pages, stale notes, and schema proposals without manually browsing every file.
+
+![Sanitized completed vault base view](docs/screenshots/completed-vault-base.svg)
+
 ## Quick Start
 
 ```bash

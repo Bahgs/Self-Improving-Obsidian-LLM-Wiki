@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Completed vault graph example</title>
+  <desc id="desc">A sanitized graph view showing how generated notes connect across sources, concepts, entities, and schema evolution.</desc>
+  <rect width="1280" height="760" fill="#151515"/>
+  <rect x="28" y="26" width="1224" height="708" rx="14" fill="#202020" stroke="#383838"/>
+  <text x="70" y="72" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#f2e5c6">Graph View: completed vault connections</text>
+  <text x="70" y="104" font-family="Inter, Arial, sans-serif" font-size="14" fill="#a8a08e">Sanitized from safe Brain vault concepts, sources, and schema-evolution notes.</text>
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g stroke="#4b4b4b" stroke-width="2" opacity="0.9">
+    <line x1="628" y1="352" x2="390" y2="242"/>
+    <line x1="628" y1="352" x2="864" y2="238"/>
+    <line x1="628" y1="352" x2="398" y2="500"/>
+    <line x1="628" y1="352" x2="888" y2="498"/>
+    <line x1="390" y1="242" x2="232" y2="392"/>
+    <line x1="390" y1="242" x2="398" y2="500"/>
+    <line x1="864" y1="238" x2="1052" y2="372"/>
+    <line x1="864" y1="238" x2="888" y2="498"/>
+    <line x1="398" y1="500" x2="232" y2="392"/>
+    <line x1="888" y1="498" x2="1052" y2="372"/>
+    <line x1="628" y1="352" x2="632" y2="610"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">
+    <circle cx="628" cy="352" r="74" fill="#e0a21a" filter="url(#glow)"/>
+    <text x="628" y="344" font-size="20" font-weight="800" fill="#171717">LLM Wiki</text>
+    <text x="628" y="370" fill="#171717">core concept</text>
+    <circle cx="390" cy="242" r="56" fill="#3c6f8f"/>
+    <text x="390" y="237" font-weight="800" fill="#ffffff">AI-assisted</text>
+    <text x="390" y="258" fill="#ffffff">software dev</text>
+    <circle cx="864" cy="238" r="58" fill="#7a5ca8"/>
+    <text x="864" y="232" font-weight="800" fill="#ffffff">Constitutional</text>
+    <text x="864" y="254" fill="#ffffff">AI training</text>
+    <circle cx="398" cy="500" r="58" fill="#4e7d44"/>
+    <text x="398" y="494" font-weight="800" fill="#ffffff">Karpathy</text>
+    <text x="398" y="516" fill="#ffffff">LLM wiki gist</text>
+    <circle cx="888" cy="498" r="62" fill="#9b5d3c"/>
+    <text x="888" y="492" font-weight="800" fill="#ffffff">Teaching Claude</text>
+    <text x="888" y="514" fill="#ffffff">why</text>
+    <circle cx="232" cy="392" r="50" fill="#5b7774"/>
+    <text x="232" y="387" font-weight="800" fill="#ffffff">Source</text>
+    <text x="232" y="408" fill="#ffffff">note</text>
+    <circle cx="1052" cy="372" r="54" fill="#805c73"/>
+    <text x="1052" y="366" font-weight="800" fill="#ffffff">Schema</text>
+    <text x="1052" y="388" fill="#ffffff">proposal</text>
+    <circle cx="632" cy="610" r="54" fill="#6a6a6a"/>
+    <text x="632" y="604" font-weight="800" fill="#ffffff">Brain Wiki</text>
+    <text x="632" y="626" fill="#ffffff">base</text>
+  </g>
+  <rect x="70" y="648" width="392" height="46" rx="23" fill="#2a2a2a" stroke="#454545"/>
+  <text x="95" y="677" font-family="Inter, Arial, sans-serif" font-size="14" fill="#e7d7ad">raw source -> source note -> concept/entity -> schema learning</text>
+</svg>

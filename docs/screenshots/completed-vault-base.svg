@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Completed vault base view example</title>
+  <desc id="desc">A sanitized Obsidian Bases-style table showing generated wiki notes grouped by type.</desc>
+  <rect width="1280" height="760" fill="#171717"/>
+  <rect x="28" y="26" width="1224" height="708" rx="14" fill="#222222" stroke="#3a3a3a"/>
+  <rect x="28" y="26" width="1224" height="58" rx="14" fill="#2a2a2a"/>
+  <text x="70" y="63" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#f2e5c6">Brain Wiki.base</text>
+  <text x="1090" y="63" font-family="Inter, Arial, sans-serif" font-size="14" fill="#a8a08e">View: Concepts and Entities</text>
+  <rect x="64" y="116" width="1152" height="72" rx="10" fill="#1c1c1c" stroke="#343434"/>
+  <text x="92" y="148" font-family="Inter, Arial, sans-serif" font-size="15" fill="#9e9685">Formula</text>
+  <text x="92" y="174" font-family="Inter, Arial, sans-serif" font-size="16" fill="#e7d7ad">wiki_type = Concept, Entity, Source, Summary, Analysis, or Wiki</text>
+  <rect x="64" y="224" width="1152" height="448" rx="10" fill="#202020" stroke="#343434"/>
+  <rect x="64" y="224" width="1152" height="48" rx="10" fill="#2b2b2b"/>
+  <text x="92" y="254" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#c8bfa9">File</text>
+  <text x="438" y="254" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#c8bfa9">Type</text>
+  <text x="564" y="254" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#c8bfa9">Status</text>
+  <text x="690" y="254" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#c8bfa9">Tags</text>
+  <text x="1030" y="254" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#c8bfa9">Backlinks</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="15">
+    <line x1="64" y1="314" x2="1216" y2="314" stroke="#313131"/>
+    <text x="92" y="300" fill="#f0c15a">llm-wiki</text>
+    <text x="438" y="300" fill="#e7d7ad">Concept</text>
+    <text x="564" y="300" fill="#d5d0bf">seed</text>
+    <text x="690" y="300" fill="#a9d18e">concept, llm-wiki</text>
+    <text x="1068" y="300" fill="#e7d7ad">5</text>
+    <line x1="64" y1="374" x2="1216" y2="374" stroke="#313131"/>
+    <text x="92" y="360" fill="#f0c15a">ai-assisted-software-development</text>
+    <text x="438" y="360" fill="#e7d7ad">Concept</text>
+    <text x="564" y="360" fill="#d5d0bf">active</text>
+    <text x="690" y="360" fill="#a9d18e">software, ai, tools</text>
+    <text x="1068" y="360" fill="#e7d7ad">8</text>
+    <line x1="64" y1="434" x2="1216" y2="434" stroke="#313131"/>
+    <text x="92" y="420" fill="#f0c15a">constitutional-ai-training</text>
+    <text x="438" y="420" fill="#e7d7ad">Concept</text>
+    <text x="564" y="420" fill="#d5d0bf">active</text>
+    <text x="690" y="420" fill="#a9d18e">ai-safety, training</text>
+    <text x="1068" y="420" fill="#e7d7ad">6</text>
+    <line x1="64" y1="494" x2="1216" y2="494" stroke="#313131"/>
+    <text x="92" y="480" fill="#f0c15a">andrej-karpathy</text>
+    <text x="438" y="480" fill="#e7d7ad">Entity</text>
+    <text x="564" y="480" fill="#d5d0bf">seed</text>
+    <text x="690" y="480" fill="#a9d18e">person, llm-wiki</text>
+    <text x="1068" y="480" fill="#e7d7ad">3</text>
+    <line x1="64" y1="554" x2="1216" y2="554" stroke="#313131"/>
+    <text x="92" y="540" fill="#f0c15a">2026-05-08-anthropic-teaching-claude-why</text>
+    <text x="438" y="540" fill="#e7d7ad">Source</text>
+    <text x="564" y="540" fill="#d5d0bf">active</text>
+    <text x="690" y="540" fill="#a9d18e">research, alignment</text>
+    <text x="1068" y="540" fill="#e7d7ad">7</text>
+    <line x1="64" y1="614" x2="1216" y2="614" stroke="#313131"/>
+    <text x="92" y="600" fill="#f0c15a">schema-evolution-output-audit-2026-05-11</text>
+    <text x="438" y="600" fill="#e7d7ad">Analysis</text>
+    <text x="564" y="600" fill="#d5d0bf">reviewed</text>
+    <text x="690" y="600" fill="#a9d18e">schema, quality</text>
+    <text x="1068" y="600" fill="#e7d7ad">4</text>
+  </g>
+  <rect x="64" y="688" width="1152" height="28" rx="14" fill="#2a2a2a"/>
+  <text x="92" y="707" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a8a08e">Sanitized from Brain Wiki.base: table views turn the generated wiki into reviewable operating surfaces.</text>
+</svg>

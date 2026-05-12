@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Completed vault concept note example</title>
+  <desc id="desc">A sanitized Obsidian-style screenshot showing a generated concept note for LLM Wiki.</desc>
+  <rect width="1280" height="760" fill="#171717"/>
+  <rect x="24" y="24" width="1232" height="712" rx="14" fill="#222222" stroke="#3a3a3a"/>
+  <rect x="24" y="24" width="1232" height="54" rx="14" fill="#2a2a2a"/>
+  <circle cx="52" cy="51" r="9" fill="#ff5f57"/>
+  <circle cx="82" cy="51" r="9" fill="#febc2e"/>
+  <circle cx="112" cy="51" r="9" fill="#28c840"/>
+  <text x="156" y="57" font-family="Inter, Arial, sans-serif" font-size="18" fill="#e7d7ad">wiki / concepts / llm-wiki</text>
+  <rect x="48" y="104" width="284" height="608" rx="8" fill="#1c1c1c" stroke="#303030"/>
+  <text x="76" y="144" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#e7d7ad">Brain Wiki</text>
+  <text x="76" y="190" font-family="Inter, Arial, sans-serif" font-size="16" fill="#c7b98f">Bases</text>
+  <text x="98" y="226" font-family="Inter, Arial, sans-serif" font-size="15" fill="#f0c15a">Brain Wiki</text>
+  <text x="98" y="256" font-family="Inter, Arial, sans-serif" font-size="15" fill="#f0c15a">Agent Skills</text>
+  <text x="76" y="306" font-family="Inter, Arial, sans-serif" font-size="16" fill="#c7b98f">wiki</text>
+  <text x="98" y="342" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">concepts</text>
+  <text x="124" y="374" font-family="Inter, Arial, sans-serif" font-size="15" fill="#f0c15a">llm-wiki</text>
+  <text x="124" y="404" font-family="Inter, Arial, sans-serif" font-size="15" fill="#d5d0bf">ai-assisted-software-development</text>
+  <text x="98" y="452" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">sources</text>
+  <text x="98" y="502" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">analysis</text>
+  <text x="76" y="552" font-family="Inter, Arial, sans-serif" font-size="16" fill="#c7b98f">schema</text>
+  <text x="98" y="588" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">evolution</text>
+  <text x="124" y="620" font-family="Inter, Arial, sans-serif" font-size="15" fill="#d5d0bf">schema-proposals</text>
+  <rect x="370" y="112" width="850" height="596" rx="10" fill="#232323"/>
+  <text x="410" y="160" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800" fill="#e0a21a">LLM Wiki</text>
+  <text x="410" y="212" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a9a18d">Properties</text>
+  <text x="410" y="248" font-family="Inter, Arial, sans-serif" font-size="14" fill="#857d6d">title</text>
+  <text x="540" y="248" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">LLM Wiki</text>
+  <text x="410" y="282" font-family="Inter, Arial, sans-serif" font-size="14" fill="#857d6d">tags</text>
+  <rect x="540" y="263" width="78" height="28" rx="14" fill="#4e5f3e"/>
+  <text x="558" y="282" font-family="Inter, Arial, sans-serif" font-size="13" fill="#dce9c4">concept</text>
+  <rect x="628" y="263" width="86" height="28" rx="14" fill="#4e5f3e"/>
+  <text x="646" y="282" font-family="Inter, Arial, sans-serif" font-size="13" fill="#dce9c4">llm-wiki</text>
+  <text x="410" y="320" font-family="Inter, Arial, sans-serif" font-size="14" fill="#857d6d">status</text>
+  <text x="540" y="320" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">seed</text>
+  <line x1="410" y1="356" x2="1160" y2="356" stroke="#303030"/>
+  <text x="410" y="410" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#e13d32">LLM Wiki</text>
+  <text x="410" y="462" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#e0a21a">Working Definition</text>
+  <text x="410" y="504" font-family="Inter, Arial, sans-serif" font-size="16" fill="#e2d6bc">An LLM Wiki is a persistent markdown knowledge base maintained with LLM</text>
+  <text x="410" y="532" font-family="Inter, Arial, sans-serif" font-size="16" fill="#e2d6bc">assistance. Raw sources stay immutable, generated knowledge lives under</text>
+  <text x="410" y="560" font-family="Inter, Arial, sans-serif" font-size="16" fill="#e2d6bc">wiki/, and operating rules live under schema/.</text>
+  <text x="410" y="612" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#e0a21a">Related Pages</text>
+  <text x="428" y="652" font-family="Inter, Arial, sans-serif" font-size="16" fill="#f0c15a">sources/2026-05-01-llm-wiki-gist</text>
+  <text x="428" y="682" font-family="Inter, Arial, sans-serif" font-size="16" fill="#f0c15a">entities/andrej-karpathy</text>
+  <rect x="905" y="624" width="248" height="48" rx="24" fill="#2b2b2b" stroke="#494949"/>
+  <text x="932" y="655" font-family="Inter, Arial, sans-serif" font-size="15" fill="#e7d7ad">5 backlinks  |  6 properties</text>
+</svg>
