@@ -1,0 +1,27 @@
+# Obsidian local state
+.obsidian/workspace*
+.obsidian/cache/
+.trash/
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+
+# Agent/runtime caches
+.agents/cache/
+.codex/
+.mcp/
+
+# Temporary extraction files
+tmp/
+temp/
+*.tmp
+
+# Optional: keep this commented if you want to version public sample sources.
+# raw/**
+
+# Private local notes that should never be published by accident
+private/
+secrets/
+credentials/
+
