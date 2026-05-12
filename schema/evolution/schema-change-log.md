@@ -16,6 +16,5 @@ Track changes to the vault's operating rules and schema-learning layer here.
 ## [2026-05-12] create | public framework template
 
 - Added the initial schema-evolution layer.
-- Preserved `schema/CODEX.md` as the stable operating contract.
+- Preserved `schema/AGENT.md` as the stable operating contract.
 - Included rubrics, extraction patterns, example files, and schema proposal space.
-

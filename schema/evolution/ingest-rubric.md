@@ -11,7 +11,7 @@ status: active
 
 # Ingest Rubric
 
-This rubric extends `schema/CODEX.md`. The raw/wiki/schema separation remains the governing rule.
+This rubric extends `schema/AGENT.md`. The raw/wiki/schema separation remains the governing rule.
 
 Use this rubric during substantial ingests, especially sources that introduce a new domain, recurring theme, research method, preference, or output-quality lesson.
 
@@ -86,5 +86,4 @@ At the end of a substantial ingest, ask:
 - Did it reveal a durable user or project preference that belongs in the schema?
 - Should this lesson become a schema proposal instead of an immediate rule?
 
-Only update `schema/CODEX.md` directly for stable, broadly applicable behavior changes. Use `schema/evolution/schema-proposals/` for ideas that need trial and review.
-
+Only update `schema/AGENT.md` directly for stable, broadly applicable behavior changes. Use `schema/evolution/schema-proposals/` for ideas that need trial and review.

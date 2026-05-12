@@ -2,7 +2,6 @@
 title: LLM Wiki Agent Instructions
 tags:
   - llm-wiki
-  - codex
   - agents
 created: 2026-05-12
 updated: 2026-05-12
@@ -10,7 +9,7 @@ updated: 2026-05-12
 
 # LLM Wiki Agent Instructions
 
-This vault is an Obsidian-friendly LLM Wiki. Before making durable wiki changes, read `schema/CODEX.md` and follow its raw/wiki/schema separation rules.
+This vault is an Obsidian-friendly LLM Wiki. Before making durable wiki changes, read `schema/AGENT.md` and follow its raw/wiki/schema separation rules.
 
 The operating principle is:
 
@@ -30,7 +29,7 @@ The hidden `.agents/skills/` directory may also exist as an agent-runtime instal
 
 ## Required Workflow
 
-For `INGEST`, `QUERY`, `LINT`, or `AUDIT`, read `schema/CODEX.md` first.
+For `INGEST`, `QUERY`, `LINT`, or `AUDIT`, read `schema/AGENT.md` first.
 
 For substantial source ingests, also read:
 
@@ -39,4 +38,3 @@ For substantial source ingests, also read:
 - `schema/evolution/extraction-patterns.md`
 
 Never modify files under `raw/` unless the user explicitly asks for source-archive setup or organization.
-

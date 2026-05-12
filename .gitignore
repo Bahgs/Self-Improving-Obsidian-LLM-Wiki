@@ -1,6 +1,8 @@
 # Obsidian local state
 .obsidian/workspace*
+.obsidian/workspace-mobile*
 .obsidian/cache/
+.obsidian/plugins/*/data.json
 .trash/
 
 # Operating system noise
@@ -11,6 +13,8 @@ Thumbs.db
 .agents/cache/
 .codex/
 .mcp/
+.claude/
+.gemini/
 
 # Temporary extraction files
 tmp/
@@ -24,4 +28,3 @@ temp/
 private/
 secrets/
 credentials/
-

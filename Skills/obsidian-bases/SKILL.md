@@ -14,5 +14,4 @@ Suggested dashboards:
 - Source Coverage: inspect raw source coverage and source notes.
 - Schema Proposals: review proposed operating-rule changes.
 
-Keep Bases as navigation aids. The canonical operating rules live in `schema/CODEX.md`.
-
+Keep Bases as navigation aids. The canonical operating rules live in `schema/AGENT.md`.

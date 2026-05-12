@@ -41,6 +41,5 @@ How should future agents avoid overusing this rule?
 
 ## Promotion Rule
 
-When should this become part of `schema/CODEX.md`?
+When should this become part of `schema/AGENT.md`?
 ```
-

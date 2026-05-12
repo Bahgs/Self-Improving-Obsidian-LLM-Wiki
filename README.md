@@ -1,6 +1,6 @@
-# LLM Wiki Framework
+# LLM Wiki OS
 
-An Obsidian-friendly knowledge vault pattern for turning raw source material into a persistent, interlinked, agent-maintained wiki that improves its own operating rules over time.
+An Obsidian-first, agent-maintained LLM Wiki framework that turns raw source material into linked notes, concepts, summaries, analysis, and evolving schema rules.
 
 This repo is a sanitized public template. It contains the framework, folder structure, agent instructions, schema, rubrics, and example skill docs. It intentionally contains no private raw files, generated personal notes, credentials, medical records, financial records, chat exports, or personal memory data.
 
@@ -13,6 +13,181 @@ This framework keeps that foundation but adds a second idea:
 > The wiki should not only grow in content. It should also improve the way future agents ingest, summarize, connect, and reason.
 
 Most AI note systems get bigger. This one is designed to get more operationally intelligent. New sources can create new wiki pages, but they can also create schema proposals, output-quality lessons, extraction patterns, and future-agent prompts.
+
+## Quick Start
+
+```bash
+git clone <your-repo-url> llm-wiki-os
+cd llm-wiki-os
+```
+
+Then:
+
+1. Open the folder as an Obsidian vault.
+2. Put one non-sensitive source in `raw/web/`, `raw/papers/`, or `raw/Clippings/`.
+3. Open your preferred agent CLI in the repo root.
+4. Ask it to read `AGENTS.md` and `schema/AGENT.md`.
+5. Run your first ingest:
+
+```text
+INGEST: raw/path-to-your-source.md
+```
+
+After the ingest, review:
+
+- `wiki/sources/`
+- `wiki/concepts/`
+- `wiki/entities/`
+- `wiki/index.md`
+- `wiki/log.md`
+
+## Installation
+
+### 1. Use This Template
+
+On GitHub, you can either:
+
+- click **Use this template**, then clone your new repo
+- fork it
+- clone it directly and rename the remote later
+
+Local setup:
+
+```bash
+git clone <repo-url> llm-wiki-os
+cd llm-wiki-os
+```
+
+### 2. Open in Obsidian
+
+In Obsidian:
+
+1. Choose **Open folder as vault**.
+2. Select the `llm-wiki-os` folder.
+3. Confirm that these folders are visible:
+   - `raw/`
+   - `wiki/`
+   - `schema/`
+   - `Skills/`
+
+This repo includes minimal Obsidian defaults. Local workspace state is ignored so your personal layout is not committed.
+
+### 3. Connect an Agent CLI
+
+This framework does not require a specific AI coding tool. It works with any agent CLI that can read and edit local files.
+
+Included compatibility files:
+
+- `AGENTS.md` for general agent instructions
+- `CLAUDE.md` for Claude-style workflows
+- `GEMINI.md` for Gemini-style workflows
+- `.cursor/rules/llm-wiki-os.mdc` for Cursor-style project rules
+- `CLI-BOOTSTRAP.md` for any tool that does not auto-read project instruction files
+
+The canonical operating contract is:
+
+```text
+schema/AGENT.md
+```
+
+All CLI-specific files point back to that schema. The framework is intentionally not tied to any one CLI, editor, model provider, or vendor.
+
+### 4. Start Your CLI From the Repo Root
+
+Use whichever CLI you prefer, but start it from the repository root:
+
+```bash
+cd path/to/llm-wiki-os
+```
+
+Then use this bootstrap prompt if your tool does not automatically load project instructions:
+
+```text
+Read AGENTS.md and schema/AGENT.md before making changes.
+For substantial ingest, query, lint, or audit work, also read:
+- schema/evolution/ingest-rubric.md
+- schema/evolution/output-quality-rubric.md
+- schema/evolution/extraction-patterns.md
+
+Follow the raw/wiki/schema separation:
+- raw/ is immutable source evidence.
+- wiki/ is generated synthesis.
+- schema/ is the operating system for future agents.
+```
+
+### 5. Add Sources
+
+Put sources under `raw/`:
+
+```text
+raw/web/          cleaned web pages
+raw/papers/       PDFs and papers
+raw/Clippings/    browser clipper markdown
+raw/ideas/        sketches and project ideas
+raw/books/        book notes or excerpts you can store
+raw/assets/       images or supporting files
+```
+
+For a public repo, do not commit private source material. Keep private raw files in a local branch, a private fork, or a separate private vault.
+
+## Agent CLI Setup
+
+### Generic Agent CLI
+
+Start from the repo root and ask the agent:
+
+```text
+Read AGENTS.md and schema/AGENT.md. Then wait for my command.
+```
+
+Use commands like:
+
+```text
+INGEST: raw/web/example.md
+QUERY: What are the strongest concepts in the vault?
+LINT
+AUDIT
+```
+
+### AGENTS.md-Compatible CLI
+
+This repo includes `AGENTS.md` as the general project instruction file. If your CLI supports project-level instruction discovery, start it from the repo root so it can read the vault rules before making changes.
+
+Recommended first prompt:
+
+```text
+Read AGENTS.md and schema/AGENT.md, then run LINT.
+```
+
+### Claude-Style CLI
+
+This repo includes `CLAUDE.md`, which points back to the same neutral operating schema.
+
+Recommended first prompt:
+
+```text
+Read CLAUDE.md and schema/AGENT.md. Confirm the ingest workflow.
+```
+
+### Gemini-Style CLI
+
+This repo includes `GEMINI.md`, which points back to the same neutral operating schema.
+
+Recommended first prompt:
+
+```text
+Read GEMINI.md and schema/AGENT.md. Confirm the ingest workflow.
+```
+
+### Cursor-Style Setup
+
+This repo includes:
+
+```text
+.cursor/rules/llm-wiki-os.mdc
+```
+
+If your editor does not load the rule automatically, paste the prompt from `CLI-BOOTSTRAP.md` into your chat.
 
 ## Core Philosophy
 
@@ -101,7 +276,7 @@ That makes the vault self-improving in a practical way:
     summaries/
     analysis/
   schema/
-    CODEX.md
+    AGENT.md
     evolution/
       ingest-rubric.md
       output-quality-rubric.md
@@ -218,11 +393,12 @@ Pull-forward questions should not accumulate forever. During audits and lint che
 
 1. Open this folder as an Obsidian vault.
 2. Put source files into `raw/`.
-3. Point your coding or agent tool at the repo.
-4. Tell the agent: `INGEST: raw/<file>`.
-5. Review the generated wiki notes.
-6. Run `LINT` periodically.
-7. Run `AUDIT` after several ingests to improve the schema.
+3. Start your preferred agent CLI from the repo root.
+4. Make sure the agent reads `AGENTS.md` and `schema/AGENT.md`.
+5. Tell the agent: `INGEST: raw/<file>`.
+6. Review the generated wiki notes.
+7. Run `LINT` periodically.
+8. Run `AUDIT` after several ingests to improve the schema.
 
 ## Recommended First Ingest
 
@@ -245,6 +421,33 @@ If the source was substantial, check:
 - `schema/evolution/schema-proposals/`
 - `schema/evolution/extraction-patterns.md`
 
+## First 30 Minutes
+
+Use this sequence for a clean first run:
+
+1. Add one source:
+
+```text
+raw/web/my-first-source.md
+```
+
+2. In your agent CLI:
+
+```text
+Read AGENTS.md and schema/AGENT.md.
+INGEST: raw/web/my-first-source.md
+```
+
+3. Review the generated source note.
+4. Review any new concept or entity pages.
+5. Ask:
+
+```text
+AUDIT the first ingest. What was good, what was weak, and what should the schema learn?
+```
+
+That last step is what makes this an operating system rather than a passive notes folder.
+
 ## Public Repo Safety
 
 Before publishing:
@@ -260,4 +463,3 @@ This template's `.gitignore` is intentionally conservative around local app stat
 ## License
 
 Use the included MIT License if you want others to freely reuse and adapt the framework.
-

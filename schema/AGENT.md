@@ -3,7 +3,7 @@ title: LLM Wiki Maintainer Schema
 tags:
   - llm-wiki
   - schema
-  - codex
+  - agent
 created: 2026-05-12
 updated: 2026-05-12
 ---
@@ -40,7 +40,7 @@ wiki/
   summaries/
   analysis/
 schema/
-  CODEX.md
+  AGENT.md
   evolution/
     ingest-rubric.md
     output-quality-rubric.md
@@ -239,4 +239,3 @@ Ask:
 - Prefer updating existing pages over creating near-duplicates.
 - Preserve user-created wiki content unless an explicit update is needed.
 - Keep pages focused so the graph has meaningful hubs, clusters, and orphans.
-
